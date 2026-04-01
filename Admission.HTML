@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admission</title>
+    <link rel="stylesheet" href="Admission.css">
+</head>
+<body>
+
+<h2>Admission Enquiry Form</h2>
+
+<h3>
+<a href="Home.html">Home</a> |
+<a href="About.html">About</a> |
+<a href="Departments.html">Departments</a> |
+<a href="Admission.html">Admission</a> |
+<a href="Contact.html">Contact</a>
+</h3>
+
+<hr>
+
+<form class="form-box" id="admissionForm">
+
+<label>Name:</label>
+<input type="text" id="name" placeholder="Enter your name" required>
+
+<label>Email:</label>
+<input type="email" id="email" placeholder="Enter your email" required>
+
+<label>Phone:</label>
+<input type="text" id="phone" placeholder="Enter your phone number" required>
+
+<label>Course:</label>
+<select id="course" required>
+<option value="">Select Course</option>
+<option>CSE</option>
+<option>Cyber</option>
+<option>AI&DS</option>
+</select>
+
+<input type="submit" value="Submit">
+
+<div class="success" id="successMsg" style="display:none;">
+✔ Registration Successful!
+</div>
+</form>
+<!-- External JS -->
+<script src="Admission.js"></script>
+</body>
+</html>
